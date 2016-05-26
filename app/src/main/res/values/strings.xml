@@ -1,0 +1,21 @@
+<resources>
+    <!-- titulos -->
+    <string name="app_name">Controle de Lanches</string>
+    <string name="colegas_cadastrados">Colegas Cadastrados</string>
+    <string name="titulo_formulario">Cadastro de Colegas</string>
+    <string name="titulo_formulario_alteracao">Atualização de Colegas</string>
+
+    <!-- menu -->
+    <string name="listar_colegas">Listar</string>
+    <string name="novo_colega">Novo Colega</string>
+
+    <!-- formulario -->
+    <string name="salvar_cadastro">Salvar Cadastro</string>
+    <string name="nome_colega">Nome do Colega</string>
+    <string name="valor_pago">Valor pago</string>
+
+    <!-- Menu contexto -->
+    <string name="inserir_pagamento">Inserir Pagamento</string>
+    <string name="apagar">Apagar</string>
+
+</resources>

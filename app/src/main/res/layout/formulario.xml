@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="@string/nome_colega"/>
+
+    <Button
+        android:id="@+id/sbSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="@string/salvar_cadastro"/>
+
+</LinearLayout>

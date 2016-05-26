@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gleibson.breakfastcontroll.Lista">
+
+    <item
+        android:id="@+id/novo_colega"
+        android:title="@string/novo_colega"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
+
+</menu>

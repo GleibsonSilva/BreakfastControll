@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".inicio">
+
+    <item
+        android:id="@+id/listar_colegas"
+        android:title="@string/listar_colegas"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/novo_colega"
+        android:title="@string/novo_colega"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+
+</menu>

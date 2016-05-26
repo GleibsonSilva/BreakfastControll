@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gleibson.breakfastcontroll" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18">
+    </uses-sdk>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Inicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormularioCadastro"
+            android:label="@string/titulo_formulario" >
+        </activity>
+        <activity
+            android:name=".FormularioAlteracao"
+            android:label="@string/titulo_formulario_alteracao">
+        </activity>
+        <activity
+            android:name=".Lista"
+            android:label="@string/colegas_cadastrados" >
+        </activity>
+    </application>
+
+</manifest>
